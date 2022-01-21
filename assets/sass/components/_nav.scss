@@ -1,0 +1,50 @@
+.nav{
+    
+    .navbar-brand{
+        display: flex;
+        h1{
+            padding-left: 10px;
+            color: $purple-color;
+        }
+    }
+
+    ul{
+
+        li{
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+        }
+        .sign{
+            border: 1px solid #B7B3B3;
+            padding: 5 30px;
+            width: 106px;
+            text-align: center;
+        }
+
+        .register{
+            background-color: $purple-color;
+            padding: 5 30px;
+            
+            width: 106px;
+            text-align: center;
+            
+            a{
+                color: $white-color !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) { 
+    .sign{
+        margin-bottom: 10px;
+    }
+ }
+
+ @media (min-width: 992px) { 
+    .sign{
+        margin-right: 10px;
+        margin-left:80px;
+    }
+ }

@@ -1,0 +1,80 @@
+.we-are-giving{
+
+    .container{
+        background: url(../../../assets/img/square45deg.png) no-repeat;
+        width: 100%;
+        background-position: center;
+        background-size: auto;
+        min-height: 860px;
+        .giving-title{
+            text-align: center;
+            h1{
+                font-size: $big-font-size;
+                line-height: $big-line-height;
+                font-weight: $font-bold;
+                margin-bottom: 26px;
+                span{
+                    font-size: 25px;
+                    line-height: 31px;
+                    font-weight: $font-bold;
+                    color: $purple-color;
+                }
+            }
+            .line{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 36px;
+                hr{
+                    width: 49px;
+                    height: 3px;
+                    color: grey;
+                }
+            }
+
+            p{
+                font-size: 18px;
+                line-height: 21px;
+                font-weight: $font-bold;
+                opacity: .2;
+            }
+        }
+
+        .item-wrapper{
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+            border-radius: 5px;
+            &:hover{
+                background-color: rgb(141, 177, 243);
+                transition: ease .5s;
+                .item-content{
+                    p{
+                        color: white;
+                        opacity: 1;
+                        transition: ease .3s;
+                    }
+                }
+            }
+            .item-image{
+                width: 100%;
+                
+            }
+
+            .item-content{
+                h1{
+                    font-size: 30px;
+                    line-height: 36px;
+                    font-weight: $font-bold;
+                    margin-bottom: 19px;
+                }
+
+                p{
+                    font-size: 18px;
+                    line-height: 22px;
+                    font-weight: $font-bold;
+                    opacity: .4;
+                }
+            }
+        }
+    }
+}
