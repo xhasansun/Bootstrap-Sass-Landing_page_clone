@@ -304,6 +304,10 @@ section {
   margin-right: 14px;
 }
 
+.footer .left-item-wrapper .title h1 {
+  color: #6C63FF;
+}
+
 .footer .left-item-wrapper .text {
   margin-top: 50px;
 }
